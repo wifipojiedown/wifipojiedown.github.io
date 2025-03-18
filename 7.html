@@ -1,0 +1,206 @@
+<!DOCTYPE html>
+<html lang="zh-CN">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>【WiFi暴力破解工具】WiFi-Crack-Tool Pro-WIFI密码破解器</title>
+<meta name="description" content="wifi-crack-tool WiFi密码暴破工具 wifi破解，WiFi密码暴力破解工具-图形界面，支持WPA/WPA2/WPA3、多开并发、自动破解、自定义密码本、自动生成密码字典，支持 WPA、WPAPSK、WPA2、WPA2PSK、WPA3、WPA3SAE 安全协议" />
+    <style>
+        :root {
+            --deep-blue: #1a73e8;
+            --tech-green: #00cc66;
+            --dark-bg: #0d1117;
+            --alert-orange: #ff6d00;
+        }
+
+        body {
+            font-family: 'SF Mono', Consolas, monospace;
+            background: var(--dark-bg);
+            color: #c9d1d9;
+            line-height: 1.6;
+        }
+
+        .container {
+            max-width: 1200px;
+            margin: 2rem auto;
+            padding: 2.5rem;
+            border: 1px solid rgba(255,255,255,0.1);
+            border-radius: 12px;
+            background: rgba(16,24,32,0.95);
+            position: relative;
+        }
+
+        h1 {
+            color: var(--tech-green);
+            text-align: center;
+            margin-bottom: 2rem;
+            font-size: 2.8rem;
+            letter-spacing: -0.05em;
+        }
+
+        .feature-grid {
+            display: grid;
+            grid-template-columns: repeat(auto-fit, minmax(320px, 1fr));
+            gap: 2rem;
+            margin: 3rem 0;
+        }
+
+        .card {
+            background: linear-gradient(145deg, rgba(26,115,232,0.1) 0%, rgba(0,204,102,0.05) 100%);
+            padding: 2rem;
+            border: 1px solid rgba(26,115,232,0.3);
+            border-radius: 8px;
+            transition: transform 0.3s cubic-bezier(0.4, 0, 0.2, 1);
+        }
+
+        .card:hover {
+            transform: translateY(-5px);
+            box-shadow: 0 8px 24px rgba(26,115,232,0.2);
+        }
+
+        .download-section {
+            display: grid;
+            grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
+            gap: 2rem;
+            margin: 4rem 0;
+        }
+
+        .btn {
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            padding: 1.5rem 2.5rem;
+            border-radius: 8px;
+            font-weight: 600;
+            text-decoration: none;
+            transition: all 0.3s ease;
+            min-height: 80px;
+            position: relative;
+            overflow: hidden;
+        }
+
+        .btn::after {
+            content: "";
+            position: absolute;
+            top: -50%;
+            left: -50%;
+            width: 200%;
+            height: 200%;
+            background: linear-gradient(
+                45deg,
+                transparent 45%,
+                rgba(255,255,255,0.15) 50%,
+                transparent 55%
+            );
+            animation: btnFlow 3s linear infinite;
+        }
+
+        .btn-standard {
+            background: linear-gradient(135deg, var(--deep-blue) 0%, #1557b0 100%);
+            color: white;
+            border: 2px solid rgba(255,255,255,0.2);
+        }
+
+        .btn-pro {
+            background: linear-gradient(45deg, #ff6d00 0%, #ff9100 100%);
+            color: white;
+            border: 2px solid rgba(255,255,255,0.2);
+            animation: pulse 1.5s infinite alternate;
+        }
+
+        .legal-warning {
+            background: rgba(255,109,0,0.1);
+            border: 2px solid var(--alert-orange);
+            padding: 1.5rem;
+            margin: 3rem 0;
+            border-radius: 8px;
+            text-align: center;
+        }
+
+        @keyframes btnFlow {
+            100% { transform: translate(50%, 50%); }
+        }
+
+        @keyframes pulse {
+            0% { transform: scale(1); }
+            100% { transform: scale(1.03); }
+        }
+
+        @media (max-width: 768px) {
+            .container {
+                padding: 1.5rem;
+                margin: 1rem;
+            }
+            
+            h1 {
+                font-size: 2.2rem;
+            }
+            
+            .btn {
+                padding: 1.2rem;
+                min-height: auto;
+            }
+        }
+    </style>
+</head>
+<body>
+    <div class="container">
+        <h1>WiFi安全审计工具 <span style="color:#fff">专业版 v4.0</span></h1>
+
+        <div class="feature-grid">
+            <div class="card">
+                <h3 style="color: var(--deep-blue);">🔍 核心功能</h3>
+                <ul>
+                    <li>多网卡并行嗅探</li>
+                    <li>智能字典生成引擎</li>
+                    <li>实时流量可视化分析</li>
+                    <li>自动化报告生成</li>
+                </ul>
+            </div>
+
+            <div class="card">
+                <h3 style="color: var(--tech-green);">🛡️ 协议支持</h3>
+                <ul>
+                    <li>WPA3-Enterprise</li>
+                    <li>802.1X/EAP</li>
+                    <li>WEP/WPA-PSK</li>
+                    <li>动态WPS检测</li>
+                </ul>
+            </div>
+        </div>
+
+        <div class="download-section">
+            <a href="https://pan.quark.cn/s/d5dfdca667e4" class="btn btn-standard">
+                <span style="font-size:1.5em; margin-right:12px;">🐍</span>
+                <div>
+                    <div>夸克网盘下载</div>
+                
+                </div>
+            </a>
+            
+            <a href="https://pan.baidu.com/s/1amUCzxYvfJdfS05QuS6aOQ?pwd=hupr" class="btn btn-pro">
+                <span style="font-size:1.5em; margin-right:12px;">💎</span>
+                <div>
+                    <div>百度网盘下载</div>
+        
+                </div>
+            </a>
+        </div>
+
+        <div class="legal-warning" style="color:var(--alert-orange);">
+            ⚠️ 本工具仅限授权安全测试使用<br>
+            依据《网络安全法》第27条，未经授权访问他人网络将承担法律责任
+        </div>
+
+        <div class="card">
+            <h3 style="color: var(--tech-green);">⚙️ 技术规格</h3>
+            <ul>
+                <li>Python 3.12+ 运行环境</li>
+                <li>异步IO任务调度</li>
+                <li>智能失败重试机制</li>
+                <li>模块化插件架构</li>
+            </ul>
+        </div>
+    </div>
+</body>
+</html>
